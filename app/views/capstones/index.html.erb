@@ -1,0 +1,8 @@
+<% @capstones.each do |capstone| %>
+  <h2><%= capstone["first_name"] %></h2>
+  <h2><%= capstone["last_name"] %></h2>
+  <h2><%= capstone["capstone"]["name"] %></h2>
+  <h3><%= capstone["capstone"]["URL"] %></h3>
+  <h3><%= capstone["capstone"]["description"] %></h3>
+  <h3><%= capstone["capstone"]["screenshot"] %></h3>
+<% end %>

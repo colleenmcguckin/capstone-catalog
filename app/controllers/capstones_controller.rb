@@ -1,7 +1,7 @@
 class CapstonesController < ApplicationController
   
   def index
-    @capstones = Unirest.get(url).body
+    @capstones = Unirest.get("http://localhost:3000/student.json").body
   end
 
   def show
