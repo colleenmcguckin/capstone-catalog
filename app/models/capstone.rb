@@ -6,11 +6,11 @@ class Capstone
     @id = hash["id"]
     @first_name = hash["first_name"]
     @last_name = hash["last_name"]  
-    @name = hash["capstones"]["name"]
-    @description = hash["capstones"]["description"]
-    @url = hash["capstones"]["url"]
-    @screenshot = hash["capstones"]["screenshot"]
-    @student_id = hash["capstones"]["student_id"]
+    @name = hash["capstone"]["name"]
+    @description = hash["capstone"]["description"]
+    @url = hash["capstone"]["url"]
+    @screenshot = hash["capstone"]["screenshot"]
+    @student_id = hash["capstone"]["student_id"]
   end
 
   def self.find(id)
